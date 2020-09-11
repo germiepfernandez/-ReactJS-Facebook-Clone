@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #18191a;
+    flex-direction: column;
+}
+
+.app-body {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    background: #18191a;
+    justify-content: center;
+}
+
+.app-body .widget {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    min-width: 350px;
+}
+
+
+:root {
+    --icon: 
+}
